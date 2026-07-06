@@ -27,6 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #06286f;
 }
 
 #header h1 {
@@ -447,7 +448,8 @@
     word-break: keep-all;
 }
 
-.main .public .more {}
+.main .public .more {
+}
 
 .main .public .more a {
     display: flex;
@@ -668,4 +670,3 @@
     margin-top: 10px;
     color: rgba(255, 255, 255, 0.5);
 }
-

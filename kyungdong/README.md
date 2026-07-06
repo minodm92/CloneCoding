@@ -92,6 +92,11 @@ kyungdong-clone/
 
 > 실제 프로젝트 구조에 맞게 폴더명은 수정 가능합니다.
 
+## 라이브 실행
+
+1. 웹사이트 주소
+
+https://minodm92.github.io/CloneCoding/kyungdong/
 ---
 
 ## 📖 구현 내용
