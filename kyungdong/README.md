@@ -26,12 +26,12 @@ http://www.kyungdong.co.kr/
 
 ## 🛠 사용 기술
 
-| 구분 | 기술 |
-|------|------|
-| Markup | HTML5 |
-| Style | CSS3 |
-| Script | JavaScript (ES6) |
-| Library | Swiper.js |
+| 구분    | 기술             |
+| ------- | ---------------- |
+| Markup  | HTML5            |
+| Style   | CSS3             |
+| Script  | JavaScript (ES6) |
+| Library | Swiper.js        |
 
 ---
 
@@ -97,7 +97,6 @@ kyungdong-clone/
 1. 웹사이트 주소
 
 https://minodm92.github.io/CloneCoding/kyungdong/
----
 
 ## 📖 구현 내용
 

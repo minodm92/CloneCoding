@@ -26,12 +26,12 @@ https://adventure.lotteworld.com/museum/main/index.do
 
 ## 🛠 사용 기술
 
-| 구분 | 기술 |
-|------|------|
-| Markup | HTML5 |
-| Style | CSS3 |
-| Script | JavaScript (ES6) |
-| Library | XEIcon |
+| 구분    | 기술             |
+| ------- | ---------------- |
+| Markup  | HTML5            |
+| Style   | CSS3             |
+| Script  | JavaScript (ES6) |
+| Library | XEIcon           |
 
 ---
 
@@ -95,6 +95,12 @@ lotteworld/
 ```
 
 > 실제 프로젝트 구조에 맞게 폴더명은 수정 가능합니다.
+
+## 라이브 실행
+
+1. 웹사이트 주소
+
+https://minodm92.github.io/CloneCoding/lotteworld/
 
 ---
 
