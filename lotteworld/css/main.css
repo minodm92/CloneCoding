@@ -1,0 +1,450 @@
+#warp {
+    width: 100%;
+    min-width: 1600px;
+}
+
+#header,
+#hero,
+#content,
+.con,
+#footer {
+    width: 100%;
+}
+
+/* inner 공통 */
+.inner {
+    width: 1170px;
+    margin: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+#header {
+}
+#header .inner {
+    height: 155px;
+}
+#header h1 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#header .nav {
+    position: absolute;
+    left: 350px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#header .nav .gnb {
+    display: flex;
+    gap: 100px;
+}
+#header .nav .gnb li {
+}
+#header .nav .gnb li a {
+    font-size: 18px;
+    letter-spacing: -0.6px;
+}
+#header .util {
+    position: absolute;
+    right: 0;
+    top: -50px;
+    display: flex;
+    gap: 10px;
+}
+#header .util li:first-child {
+    margin-right: 10px;
+    position: relative;
+}
+#header .util li:first-child::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 12px;
+    background: #000000;
+    position: absolute;
+    right: -10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#header .util li a {
+    font-size: 15px;
+}
+#hero {
+    height: 720px;
+    background: #797979;
+}
+.main {
+}
+.main .con {
+}
+.main .con .inner {
+    padding: 120px 0;
+}
+.main .con h2 {
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.main .con p {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.main .con1 {
+}
+.main .con1 .inner {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .con1 .box {
+    display: flex;
+}
+.main .con2 {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url(../images/mainCon1_bg.jpg);
+    background-size: cover;
+}
+.main .con2 h2 {
+    color: #fff;
+}
+.main .con2 p {
+    color: #fff;
+}
+
+.main .con2 ul {
+    display: flex;
+    justify-content: space-between;
+}
+.main .con2 ul li {
+    width: 574px;
+}
+.main .con2 ul li a {
+}
+.main .con2 ul li a .mask {
+    width: 574px;
+    height: 420px;
+    overflow: hidden;
+}
+.main .con2 ul li a .mask img {
+    transition: 0.5s;
+}
+.main .con2 ul li a .mask img:hover {
+    transform: scale(1.1);
+}
+.main .con2 ul li a strong {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    display: block;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.main .con3 {
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-image: url(../images/mainCon2_bg.jpg);
+    background-size: cover;
+}
+.main .con3 .inner {
+}
+.main .con3 h2 {
+}
+.main .con3 p {
+}
+.main .con3 ul {
+    display: flex;
+    justify-content: space-between;
+}
+.main .con3 ul li {
+    width: 375px;
+}
+.main .con3 ul li a {
+}
+.main .con3 ul li a .mask {
+    width: 375px;
+    height: 246px;
+    overflow: hidden;
+    margin: 0;
+}
+.main .con3 ul li a .mask img {
+    transition: 0.5s;
+}
+.main .con3 ul li a .mask img:hover {
+    transform: scale(1.1);
+}
+.main .con3 ul li a strong {
+    background: #fff;
+    display: block;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.main .con4 {
+    background: #fafafa;
+}
+.con4 .inner {
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    gap: 30px;
+    padding: 120px 0;
+}
+.con4 h2 {
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 1.1;
+    margin-bottom: 16px;
+    text-align: left;
+}
+.con4 p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #777;
+    margin-bottom: 40px;
+}
+.con4_header {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+.con-box {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 32px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+}
+.con-box_head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+.con-box_head h3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+.con-box_more {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+}
+.con-box_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 24px;
+}
+.con-box_main strong {
+    font-size: 18px;
+    font-weight: 500;
+}
+.con-box_main span {
+    color: #999;
+    font-size: 14px;
+}
+.con-box ul {
+    display: grid;
+    gap: 18px;
+}
+.con-box ul li a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.con-box ul li a span:first-child {
+    display: inline-block;
+    max-width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.con-box ul li a span:last-child {
+    color: #999;
+    white-space: nowrap;
+}
+.con4_side {
+    display: grid;
+    gap: 20px;
+}
+.con4_grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.grid_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    padding: 30px 20px;
+    text-decoration: none;
+    color: #333;
+}
+.grid_icon {
+    display: inline-flex;
+    width: 58px;
+    height: 58px;
+    border: 1px solid #2a7d4b;
+    border-radius: 50%;
+    color: #2a7d4b;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    margin-bottom: 16px;
+}
+.grid_item strong {
+    font-size: 16px;
+    font-weight: 500;
+}
+.con4_bg {
+    display: block;
+    min-height: 260px;
+    background:
+        linear-gradient(180deg, rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.14)),
+        url('../images/mainCon3_banner.jpg') center/cover no-repeat;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    padding: 32px;
+    align-self: end;
+}
+.con4_bg::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.18);
+}
+.con4_bg strong,
+.con4_bg p {
+    position: relative;
+}
+.con4_bg strong {
+    display: block;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 14px;
+}
+.con4_bg p {
+    font-size: 16px;
+    color: #fff;
+}
+#footer {
+    border-top: 1px solid #dcdcdc;
+}
+#footer .inner {
+    height: 355px;
+    padding: 50px;
+}
+#footer .inner p:last-child {
+    font-size: 13px;
+    font-weight: 300;
+}
+#footer p a {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+#footer .inner::after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    top: 112px;
+}
+#footer p span {
+    font-size: 15px;
+    font-weight: 300;
+}
+#footer p:nth-of-type(1) {
+    margin-bottom: 60px;
+}
+#footer p span {
+    margin-right: 10px;
+    position: relative;
+}
+#footer p span::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 13px;
+    background: #dcdcdc;
+    right: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#footer p span:last-child::after {
+    content: none;
+}
+#footer p:nth-of-type(2) {
+}
+#footer p:nth-of-type(3) {
+}
+#footer p:nth-of-type(4) {
+    margin-top: 30px;
+}
+#footer .family {
+    position: absolute;
+    right: 0;
+    top: 142px;
+    width: 210px;
+}
+#footer .family .title {
+    font-size: 15px;
+    font-weight: 300;
+}
+#footer .family .title a {
+    display: block;
+    width: 210px;
+    height: 45px;
+    line-height: 45px;
+    box-sizing: border-box;
+    border: 1px solid #dcdcdc;
+    text-indent: 20px;
+}
+#footer .family ul {
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+#footer .family ul li {
+}
+#footer .family ul li a {
+    font-size: 15px;
+    font-weight: 300;
+    display: block;
+    width: 210px;
+    height: 45px;
+    line-height: 45px;
+    box-sizing: border-box;
+    border: 1px solid #dcdcdc;
+    text-indent: 20px;
+    margin-top: -1px;
+}

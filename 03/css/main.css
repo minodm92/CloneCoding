@@ -1,0 +1,331 @@
+body {
+    min-width: 1200px;
+    background: #fff;
+    color: #333;
+    font-size: 14px;
+}
+
+button,
+input,
+select {
+    font: inherit;
+    color: inherit;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #aaa;
+}
+
+input,
+select {
+    height: 30px;
+    border: 1px solid #aaa;
+    padding: 0 8px;
+    background: #fff;
+}
+
+input::placeholder {
+    color: #718096;
+}
+
+.inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 150px;
+    background: #fff;
+}
+
+#header .inner {
+    position: relative;
+    height: 100%;
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 100px;
+    height: 50px;
+}
+
+.logo a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: #d8d8d8;
+    color: #aaa;
+    font-size: 11px;
+}
+
+.gnb {
+    position: absolute;
+    left: 330px;
+    top: 73px;
+}
+
+.gnb ul {
+    display: flex;
+    gap: 64px;
+}
+
+.gnb a {
+    display: block;
+    color: #222;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.util {
+    position: absolute;
+    right: 0;
+    top: 24px;
+    display: flex;
+    gap: 18px;
+}
+
+.util a {
+    color: #4d5662;
+    font-size: 13px;
+}
+
+#subVisual {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:
+        linear-gradient(rgba(18, 27, 45, 0.35), rgba(18, 27, 45, 0.35)),
+        url('../images/main02_pc.jpg') center 47% / cover no-repeat;
+}
+
+#subVisual h2 {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+#content {
+    padding: 150px 0 145px;
+}
+
+.join-title {
+    position: relative;
+    padding-bottom: 22px;
+    border-bottom: 2px solid #111;
+}
+
+.join-title h3 {
+    color: #2f343b;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.join-title span {
+    position: absolute;
+    right: 0;
+    bottom: 27px;
+    color: #333;
+    font-size: 15px;
+}
+
+em {
+    color: #ff6a4f;
+    font-style: normal;
+}
+
+.join-form legend {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+}
+
+.form-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.form-table caption {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+}
+
+.form-table .label-col {
+    width: 200px;
+}
+
+.form-table th,
+.form-table td {
+    height: 38px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.form-table th {
+    padding-top: 3px;
+    color: #4a5561;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.form-table td {
+    padding: 10px 0 0;
+    color: #4a5561;
+}
+
+.form-table tr:last-child td {
+    padding-bottom: 10px;
+}
+
+.form-table tr.line th,
+.form-table tr.line td {
+    border-bottom: 1px solid #ddd;
+}
+
+.form-table tr.line + tr th,
+.form-table tr.line + tr td {
+    padding-top: 10px;
+}
+
+.form-table input.short,
+.inline-field input {
+    width: 180px;
+}
+
+.inline-field {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.inline-field button,
+.email-field button,
+.address-field button {
+    height: 30px;
+    padding: 0 13px;
+    color: #333;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.inline-field p {
+    margin-left: 4px;
+    color: #4c5963;
+    line-height: 30px;
+}
+
+.email-field {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.email-field input {
+    width: 180px;
+}
+
+.email-field select {
+    width: 180px;
+    padding-right: 0;
+}
+
+.email-field span {
+    color: #333;
+    line-height: 30px;
+}
+
+.address-field div {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 6px;
+}
+
+.address-field div input {
+    width: 110px;
+}
+
+.address-field > input {
+    width: 650px;
+}
+
+.address-line th,
+.address-line td {
+    height: 75px;
+}
+
+.agree-line th,
+.agree-line td {
+    height: 70px;
+    border-bottom: 1px solid #ddd;
+}
+
+.agree-line p,
+.brand-line p {
+    margin-bottom: 8px;
+    color: #4a5561;
+    line-height: 24px;
+}
+
+.check {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 110px;
+    color: #4a5561;
+    line-height: 24px;
+}
+
+.check input {
+    width: 13px;
+    height: 13px;
+    margin: 0 6px 0 0;
+    padding: 0;
+}
+
+.brand-line th,
+.brand-line td {
+    height: 62px;
+}
+
+.btn-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.btn {
+    width: 150px;
+    height: 52px;
+    font-weight: 700;
+}
+
+.btn.cancel {
+    border-color: #aaa;
+    background: #fff;
+    color: #333;
+}
+
+.btn.submit {
+    border-color: #000;
+    background: #000;
+    color: #fff;
+}
+
+#footer {
+    height: 300px;
+    background: #333;
+}
